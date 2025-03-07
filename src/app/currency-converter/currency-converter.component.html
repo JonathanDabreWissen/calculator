@@ -1,1 +1,5 @@
-<p>currency-converter works!</p>
+<div>USD: {{ inr | money:'USD' | currency:'USD' }}</div>
+<div>AUD: {{ inr | money:'AUD' | currency:'AUD'}}</div>
+<div>JPY: {{ inr | money:'JPY' | currency:'SAR'}}</div>
+<div>SAR: {{ inr | money:'SAR' | currency:'JPY'}}</div>
+<div>EUR: {{ inr | money:'EUR' | currency:'EUR'}}</div>
